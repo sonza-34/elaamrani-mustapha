@@ -1,0 +1,84 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; /* Bleu clair */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style pour les formulaires */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Style des boutons */
+button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #1e8449;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+/* Style des titres */
+h1, h2, h3 {
+    color: #d35400;
+    text-align: center;
+}
+
+/* Style des liens */
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1e6091;
+}
+
+/* Style de la liste des villes (page01.html) */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    background: #ffffff;
+    margin: 5px auto;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+ul li:hover {
+    background: #27ae60;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Ajustement pour page02 */
+h2 {
+    font-size: 20px;
+}
